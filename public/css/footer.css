@@ -1,0 +1,70 @@
+footer {
+  height: 100px;
+  background: linear-gradient(90.35deg, #AC7C62 0%, rgba(172, 124, 98, 0) 100%);
+  background-color: rgba(104, 51, 9, 0.8);
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .left {
+  position: relative;
+  font-size: 18px;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+footer .container .left:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: url(../img/copy.png) no-repeat;
+}
+footer .container .right ul {
+  margin-top: 15px;
+}
+footer .container .right ul li {
+  font-size: 22px;
+  padding-left: 30px;
+}
+footer .container .right ul li:first-child {
+  position: relative;
+  margin-bottom: 15px;
+}
+footer .container .right ul li:first-child:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: url(../img/tel.png) no-repeat;
+  top: -3px;
+  left: 0;
+}
+footer .container .right ul li:last-child {
+  position: relative;
+}
+footer .container .right ul li:last-child:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: url(../img/mail.png) no-repeat;
+  top: -3px;
+  left: 0;
+}
+
+@media screen and (max-width: 426px) {
+  footer .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  footer .container .right ul {
+    margin-top: 5px;
+  }
+  footer .container .right ul li {
+    font-size: 20px;
+  }
+}

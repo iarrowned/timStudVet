@@ -1,0 +1,82 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    height: 61px;
+    background-color: #dbdbdb;
+}
+header ul {
+    display: flex;
+    justify-self: start;
+    padding-top: 20px;
+}
+header ul li {
+    margin-right: 4px;
+}
+header ul li a {
+    font-size: 14px;
+    padding: 25px 50px;
+}
+header ul li a:hover {
+    background-color: #c2c2c2;
+}
+
+.categories .container {
+    display: flex;
+    justify-content: start;
+}
+.categories .container .cats {
+    background-color: #949eb3;
+    width: 25%;
+    border: 1px solid;
+}
+.categories .container .cats ul {
+    height: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.categories .container .cats ul li {
+    margin-bottom: 5px;
+}
+.categories .container .cats ul li a {
+    margin-right: 5px;
+}
+.categories .container .cats form {
+    display: flex;
+    flex-direction: column;
+}
+.categories .container .cats form input {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+
+.answer .container table {
+    border: 1px solid;
+}
+.answer .container table tr {
+    height: 40px;
+
+    border: 1px solid;
+}
+.answer .container table tr td {
+    border: 1px solid;
+    width: 100px;
+}
+
+.otvet .container .content h2 {
+    font-size: 24px;
+}
+.otvet .container .content .theme {
+    font-size: 24px;
+}
+.otvet .container .content .quest {
+    font-size: 24px;
+}
+.otvet .container form textarea {
+    border: 1px solid;
+    width: 300px;
+    height: 250px;
+}
